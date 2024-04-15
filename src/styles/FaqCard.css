@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+.faq_card {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #56b124;
+    margin-bottom: 30px;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.faq_card>h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    color: #555555;
+    font-family: "Noto Serif", serif;
+    cursor: pointer;
+}
+
+.faq_card>div>p {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .faq_card>h1 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .faq_card>div>p {
+        line-height: 1.7;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .faq_card {
+        margin-bottom: 20px;
+    }
+}

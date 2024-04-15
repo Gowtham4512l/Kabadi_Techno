@@ -1,0 +1,138 @@
+.term_footer {
+    background-color: #56b124;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    z-index: 999;
+}
+
+.main_footer {
+    width: 100%;
+    background-image: url(../assets/short_banner5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.link_section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto 40px;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+
+.link_section>ul {
+    width: 30%;
+}
+
+.footer_header {
+    color: #56b124;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.link_section>ul>li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.link_section>ul>li>.footer_link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.link_section>ul>li>.footer_link:hover {
+    color: #56b124;
+}
+
+.link_section>ul>li>.footer_link>.footer_link_icon {
+    margin-right: 10px;
+}
+
+.social_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social_section>.social_link>a {
+    color: #fff;
+    margin: 0 20px;
+}
+
+.social_section>.social_link>a>.social_link_icon {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .link_section {
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .footer_header {
+        word-spacing: normal;
+        letter-spacing: normal;
+        font-size: 1.5rem;
+    }
+
+    .link_section>ul {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .link_section>ul>li {
+        margin-bottom: 15px;
+    }
+
+    .link_section>ul>li>.footer_link {
+        justify-content: center;
+    }
+
+    .link_section>ul>li>.footer_link>.footer_link_icon {
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .link_section {
+        justify-content: space-evenly;
+    }
+
+    .link_section>ul {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main_footer {
+        background-image: none;
+        background-color: #05242a;
+    }
+
+    .link_section>ul {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer_header {
+        margin-bottom: 20px;
+    }
+}

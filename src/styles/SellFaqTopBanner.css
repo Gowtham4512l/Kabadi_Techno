@@ -1,0 +1,36 @@
+.sell_faq_top_banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/short_banner5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25vh;
+}
+
+.sell_faq_top_banner>h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .sell_faq_top_banner>h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sell_faq_top_banner>h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .sell_faq_top_banner>h1 {
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+}

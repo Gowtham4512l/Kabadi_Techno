@@ -1,0 +1,50 @@
+.about_work_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: linear-gradient(180deg, #78d347, #215206);
+    width: 100%;
+    max-width: 400px;
+    flex-direction: column;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    margin: 20px 10px;
+    height: 400px;
+}
+
+.about_work_card>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.about_work_card>p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+/* 768px */
+@media only screen and (max-width: 768px) {
+    .about_work_card {
+        height: 380px;
+    }
+}
+
+/* 480px */
+@media only screen and (max-width: 480px) {
+    .about_work_card {
+        width: 95%;
+        padding: 80px 0;
+    }
+}
+
+/* 360px */
+@media only screen and (max-width: 360px) {
+    .about_work_card {
+        margin-bottom: 10px;
+        height: 350px;
+    }
+}
